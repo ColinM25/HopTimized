@@ -6,14 +6,14 @@
 
 ## Features
 
-- **Data Collection**:
+- **Feature**:
     - 
 
-- **Cost Analysis**:
+- **Feature**:
     - 
 
-- **Optimization Model**:
-    - [Optimizer](./optimize.jl) in Julia using GLPK to find the optimal travel route. 
+- **Feature**:
+    - 
 
 ## Installation
 
