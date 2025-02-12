@@ -1,4 +1,4 @@
-# HopTimizer - Multi-Destination Travel Tool
+# HopTimizer - The Multi-Destination Travel Tool
 
 ## Introduction
 
