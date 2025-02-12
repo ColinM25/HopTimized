@@ -1,9 +1,9 @@
-# HopTimizer - The Multi-Destination Travel Tool
+# HopTimized - The Multi-Destination Travel Tool
 
 ## Introduction
 
 **HopTimizer** is a comprehensive tool designed to help travelers find the best flight path based on specific destinations. Want to visit Paris, Amsterdam, and Zurich on a budget? 
-HopTimizer will find the best flight path to ensure you can visit all 3 destinations as cheaply as possible.
+HopTimizer will find the best flight path to ensure you can hop to all 3 destinations as cheaply as possible.
 
 ## Features
 
