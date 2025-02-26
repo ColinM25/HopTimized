@@ -3,6 +3,8 @@
 
 DO NOT USE THE `.data` ATTRIBUTE IN THE RESPONSE OBJECT IT TAKES FOREVER
 
+**** amadeus does not seem to have AA, DL, or BA for some reason
+
 flight offers GET schema
 - `originLocationCode`
 - `destinationLocationCode`
