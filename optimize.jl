@@ -2,6 +2,8 @@ using JuMP
 using CSV
 using DataFrames
 using Dates
+using Pkg
+using JSON
 
 using Cbc
 using GLPK
@@ -68,6 +70,14 @@ if termination_status(model) == MOI.OPTIMAL
 
     # sort by dates in order
     sorted_flights = sort(selected_flights, by = x -> Date(x[3], "m/d"))  # assuming Date format is "m/d"
+    
+    # convert to JSON format
+    json_data = JSON.json([Dict("departure" => flight[1], "arrival" => flight[2], "date" => flight[3], "price" => flight[4]) for flight in sorted_flights])
+
+    # write to JSON file
+    open("results.json", "w") do file
+        write(file, json_data)
+    end
 
     # print
     for flight in sorted_flights
@@ -76,3 +86,5 @@ if termination_status(model) == MOI.OPTIMAL
 else
     println("No optimal solution found.")
 end
+
+ 
