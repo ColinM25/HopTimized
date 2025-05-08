@@ -1,1 +1,3 @@
 {"departureAirport":"ORD","destinationAirports":["LAX","JFK","EWR"],"departureDate":"2025-04-24","returnDate":"2025-04-30"}
+{"departureAirport":"LAX","destinationAirports":["EWR"],"departureDate":"2025-05-14","returnDate":"2025-05-15"}
+{"departureAirport":"ORD","destinationAirports":["LAX","JFK","EWR"],"departureDate":"2025-05-14","returnDate":"2025-05-27"}
